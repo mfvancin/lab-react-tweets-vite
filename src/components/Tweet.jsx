@@ -1,11 +1,8 @@
-function Tweet() {
+function tweet() {
   return (
     <div className="tweet">
-      <img
-        src="https://education-team-2020.s3.eu-west-1.amazonaws.com/web-dev/ih_logo.jpeg"
-        className="profile"
-        alt="profile"
-      />
+      <img src="https://coursereport-s3-production.global.ssl.fastly.net/uploads/school/logo/84/original/logo-ironhack-blue.png" className="profile" alt="profile" />
+
 
       <div className="body">
         <div className="top">
@@ -23,7 +20,6 @@ function Tweet() {
         </p>
 
         <div className="actions">
-          {/* Font Awesome icons */}
           <i className="far fa-comment" data-testid="comment-icon"></i>
           <i className="fas fa-retweet" data-testid="retweet-icon"></i>
           <i className="far fa-heart" data-testid="heart-icon"></i>
@@ -36,4 +32,4 @@ function Tweet() {
   );
 }
 
-export default Tweet;
+export default tweet;
